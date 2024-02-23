@@ -6,15 +6,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'nbdoc: Authoring With Notebooks',
-  tagline: 'Stop copy/pasting code into docs & blogs',
-  url: 'https://outerbounds.github.io',
-  baseUrl: '/nbdoc-docusaurus/',
+  title: 'Documentation Station',
+  tagline: 'Documentations are cool',
+  url: 'https://localhost:3000',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'outerbounds', // Usually your GitHub org/user name.
-  projectName: 'nbdoc-docusaurus', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'bossco', // Usually your repo name.
 
   presets: [
     [
@@ -41,14 +41,13 @@ const config = {
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    
     ({
       image: 'img/nbdoc_diagram.png',
       navbar: {
-        title: 'nbdoc-Docusaurus',
+        title: 'boss',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'boss',
+          src: 'https://sfdcboss.com/wp-content/uploads/2022/08/bossco-logo-1.png'
         },
         items: [
           {

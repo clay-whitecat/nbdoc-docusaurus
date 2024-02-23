@@ -101,7 +101,7 @@ The definintions of these fields are as follows:
 
 Note that this references `requirements.txt`, which you will have to update appropriately anytime you include addtional python dependencies in your documentation.
 
-
+ 
 <a id="markdown-using-notebooks" name="using-notebooks"></a>
 
 ## Using Notebooks
